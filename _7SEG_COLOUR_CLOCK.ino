@@ -5,7 +5,7 @@
 #include <DS1307RTC.h>
 
 #define NUM_LEDS 7+7+2+7+7
-#define DATA_PIN 3
+#define DATA_PIN 3 //data pin for leds
 #define BRIGHTNESS 255
 #define BUT_PIN 4
 #define PRESS_SHORT 30//in milliseconds, for debouncing
